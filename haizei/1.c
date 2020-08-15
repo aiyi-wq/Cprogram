@@ -1,14 +1,13 @@
 /*************************************************************************
-	> File Name: EP40.cpp
+	> File Name: 1.c
 	> Author: 
 	> Mail: 
-	> Created Time: Sun 07 Jun 2020 04:48:08 PM CST
+	> Created Time: Sun 14 Jun 2020 03:51:44 PM CST
  ************************************************************************/
 
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 
 int main() {
-    
+    printf("\033[1;32m Hello \033[1;31m World. \033[0m \n");
     return 0;
 }
